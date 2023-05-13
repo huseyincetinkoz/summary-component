@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon-32x32.png">
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Review Summary Component</title>
+</head>
+<body>
+    <main>
+        <article class="result">
+            <div class="result__scored">
+
+                <h1>Your Result</h1>
+
+                <div class="result__grade">
+                    <p class="result__correct">76</p>
+                    <p class="result__total">of 100</p>
+                </div>
+
+                <p class="result__adjective">Great</p>
+                <p class="result__stats">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+
+            <div class="result__summary">
+
+                <h2>Summary</h2>
+
+                <div class="flex-items">
+
+                    <div class="result__reaction flex-child">
+                        <p class="result__area-name">Reaction</p>
+                        <p class="result__area-score">80 <span class="total">/ 100</span></p>
+                    </div>
+
+                    <div class="result__memory flex-child">
+                        <p class="result__area-name">Memory</p>
+                        <p class="result__area-score">92 <span class="total">/ 100</span></p>
+                    </div>
+            
+                    <div class="result__verbal flex-child">
+                        <p class="result__area-name">Verbal</p>
+                        <p class="result__area-score">61 <span class="total">/ 100</span></p>
+                    </div>
+            
+                    <div class="result__visual flex-child">
+                        <p class="result__area-name">Visual</p>
+                        <p class="result__area-score">72 <span class="total">/ 100</span></p>
+                    </div>
+            
+                    <input type="button" class="button" value="Continue"></input>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
